@@ -8,8 +8,8 @@
 
 # Running application 
 Please follow following steps to run the application 
-- In your local terminal, run `docker build --tag "TAG" .`  **REAPLACE "TAG"** 
-- In your local terminal, run `docker run -it --privileged -e DISPLAY="YOUR IP ADDRESS":0.0 -v /tmp/.X11-unix:/tmp/.X11-unix "TAG":latest` ** REPLACE "YOUR IP ADDRESS" and "TAG"**
+- Run `docker build --tag "TAG" .`  **REAPLACE "TAG"** 
+- Run `docker run -it --privileged -e DISPLAY="YOUR IP ADDRESS":0.0 -v /tmp/.X11-unix:/tmp/.X11-unix "TAG":latest` ** REPLACE "YOUR IP ADDRESS" and "TAG"**
 - Press the radio buttons to select the files you want to process and click ***Choose Files*** button. 
 - Press ***Load Engine***
 - Once Inverted Index is successfully constructed, select the ***Search For Term*** or ***Top-N***
