@@ -18,4 +18,4 @@ Please follow following steps to run the application
 
 # Note
 - jar files might need to be uploaded to GCP before running the application.
-- Credential file from gcp is necessary.
+- Credential file from GCP is necessary.
